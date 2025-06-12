@@ -64,6 +64,3 @@ for i in range(10000):
     print("ite:{}, loss_test:{}".format(i, loss_test))
 
 torch.save(net, "model/model.pkl")
-# torch.load("")
-# torch.save(net.state_dict(), "params.pkl")
-# net.load_state_dict("")
